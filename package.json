@@ -1,0 +1,39 @@
+{
+  "name": "ecommerce-product-api",
+  "version": "1.0.0",
+  "description": "This is a simple api for ecommerce website",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakharsultandev/node-ecommerce-api.git"
+  },
+  "author": "Muhammad Fakhar Sultan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakharsultandev/node-ecommerce-api/issues"
+  },
+  "homepage": "https://github.com/fakharsultandev/node-ecommerce-api#readme",
+  "dependencies": {
+    "@rollup/wasm-node": "^4.18.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
